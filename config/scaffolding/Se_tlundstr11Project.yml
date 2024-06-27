@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Se_tlundstr11Project
+  gitServerName: tlundstr_git
+  gitUrl: https://github.com/tlundstr/Se_tlundstr11Project
+  gitUsername: tlundstr
+  gitBranch: main
