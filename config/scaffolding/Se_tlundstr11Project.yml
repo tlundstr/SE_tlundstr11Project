@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/tlundstr/Se_tlundstr11Project
   gitUsername: tlundstr
   gitBranch: main
+services:
+- serviceName: project.se_tlundstr11.integrations:daDocInput
+  packages:
+  - name: Se_tlundstr11Project
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.927
